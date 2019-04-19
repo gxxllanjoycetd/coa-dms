@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style=width:100%;height:auto;>
+    <div>
+        <img src="dash.png " style=width:100%;height:auto;margin-top:5px; />
+    </div>
+    <div style=font-size:20px;>
+        <center>Implementation and Liquidation by Implementing Agency</center>
+    </div>
+    <section>
+        <article>
+            <div id="myDIV" class="header">
+                <h2 style="margin:5px">Supporting Documentary Requirements</h2>
+                <input type="text" id="myInput" placeholder="Additional Requirements">
+                <span onclick="newElement()" class="addBtn">Add</span>
+            </div>
+
+            <ul id="myUL">
+                <li>Certificate of Availability of Funds issued by the Chief Accountant</li>
+                <li>Existence of lawful and sufficient allotment duly obligated as certified by authorized officials [except for government-owned and controlled corporations/government financing institutions (GOCCs/GFIs)]
+                </li>
+                <li>Legality of transaction and conformity with laws, rules or regulations</li>
+                <li>Approval of expenditure by Head of Office or his authorized representative</li>
+                <li>Sufficient and relevant documents to establish validity of claim</li>
+                <li>Necessary supporting documents depending on the nature of transactions</li>
+                <li>Copy of MOA/Trust Agreement</li>
+                <li>Copy of OR upon receipt of funds transferred</li>
+                <li>Copy of OR issued by the Source Agency evidencing refund of unexpended/unutilized balance of fund transfer</li>
+            </ul>
+        </article>
+        <nav>
+            <div>
+                <form style="font-size: 18px; " action="/action_page.php ">
+                    <div>
+                        <h4 style="margin:5px">Check Number :</h4>
+                        <input style="width: 95%;" type="text" id="myInput" placeholder="Enter Check No./Cancelled">
+                    </div>
+                    <div>
+                        <h4 style="margin:5px">Municipality / City</h4>
+                        <input style="width: 95%;" type="text" id="myInput" placeholder="Enter Municipality/City">
+                    </div>
+                    <div>
+                        <h4 style="margin:5px">Baranggay</h4>
+                        <input style="width: 95%;" type="text" id="myInput" placeholder="Enter Baranggay">
+                    </div>
+                    <div>
+                        <h4 style="margin:5px">Voucher Number :</h4>
+                        <input style="width: 95%;" type="text" id="myInput" placeholder="Enter Voucher No.">
+                    </div>
+                    <div>
+                        <h4 style="margin:5px">Date of Voucher :</h4>
+                        <input style="width: 95%;" type="text" id="myInput" placeholder="Enter Date of Voucher">
+                    </div>
+                    <div>
+                        <h4 style="margin:5px">Payee :</h4>
+                        <input style="width: 95%;" type="text" id="myInput" placeholder="Enter Payee">
+                    </div>
+                    <div>
+                        <h4 style="margin:5px">Source of Fund :</h4>
+                        <input style="width: 95%;" type="text" id="myInput" placeholder="Enter Source of Fund">
+                    </div>
+                    <br><br><br>
+                    <button type="submit " form="form1 " value="Submit ">SAVE</button>
+                </form>
+            </div>
+        </nav>
+    </section>
+
+    <script src="checklist.js"></script>
+
+</body>
+
+</html>

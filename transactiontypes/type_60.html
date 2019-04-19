@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style=width:100%;height:auto;>
+    <div>
+        <img src="dash.png " style=width:100%;height:auto;margin-top:5px; />
+    </div>
+    <div style=font-size:20px;>
+        <center>Variation Order / Change Order / Extra Work Order (Public Bidding)</center>
+    </div>
+    <section>
+        <article>
+            <div id="myDIV" class="header">
+                <h2 style="margin:5px">Supporting Documentary Requirements</h2>
+                <input type="text" id="myInput" placeholder="Additional Requirements">
+                <span onclick="newElement()" class="addBtn">Add</span>
+            </div>
+
+            <ul id="myUL">
+                <li>Certificate of Availability of Funds issued by the Chief Accountant</li>
+                <li>Existence of lawful and sufficient allotment duly obligated as certified by authorized officials [except for government-owned and controlled corporations/government financing institutions (GOCCs/GFIs)]
+                </li>
+                <li>Legality of transaction and conformity with laws, rules or regulations</li>
+                <li>Approval of expenditure by Head of Office or his authorized representative</li>
+                <li>Sufficient and relevant documents to establish validity of claim</li>
+                <li>Authenticated photocopy of the approved APP and any amendment thereto</li>
+                <li>Approved contract supported by the documents which are required under COA Circular No. 2009-001 dated February 12, 2009 and COA Memorandum No. 2005-027 dated February 28, 2005 to be submitted to the Auditor 's Office within five days from
+                    the execution of the contract</li>
+                <li>Copy of Advertisement of Invitation to Bid/Request for expression of interest</li>
+                <li>Documentary requirements under Sections 23.l and 25.2.b for infrastructure projects, 23.1 and 25.2a for goods and 24.1 and 25.2c for consulting services, of the Revised IRR of RA No. 9184</li>
+                <li>Minutes of Pre-procurement Conference for projects costing above P5.0 million for infrastructure, P2.0 million ' and above for goods, and 1.0 million and above for consulting services</li>
+                <li>Bid Evaluation Report</li>
+                <li>Ranking of short listed bidders for consulting services</li>
+                <li>Post Qualification Evaluation Report</li>
+                <li>Printout copy of posting of Notice of Award, Notice to Proceed and Contract of award in the PhilGEPS</li>
+                <li>For LGUs, as clarified under COA Memorandum No. 2010-014 dated April 22, 2010, authorization by local Sanggunian for the Local Chief Executive to enter into contract in case of enacted budget</li>
+                <li>Evidence of Invitation of three observers in all stages of the procurement process pursuant to Section 13.1 of the Revised IRR of RA No. 9184</li>
+                <li>Request for purchase or requisition of supplies, materials and equipment duly approved by proper authorities</li>
+                <li>Letter request from contractors for advance/progress/final payment or for substitution in case of release of retention money
+                </li>
+                <li>Statement of Work Accomplished/Progress Billing</li>
+                <li>Inspection Report by the Agency's Authorized Engineer</li>
+                <li>Results of Test Analysis, if applicable</li>
+                <li>Statement of Time Elapsed</li>
+                <li>Monthly Certificate of Payment</li>
+                <li>Contractor's Affidavit on payment of laborers and materials</li>
+                <li>Pictures, before, during and after construction of items of work especially the embedded items</li>
+                <li>Photocopy of vouchers of all previous payments</li>
+                <li>Certificate of completion</li>
+                <li>Copy of Approved Change Order (CO)/Extra Work Order (EWO)</li>
+                <li>Copy of the approved original plans indicating the affected portion(s) of the project and duly revised plans and specifications, if applicable, indicating the changes made which shall be color coded</li>
+                <li>Copy of the agency's report establishing the necessity/justification(s) for the need of such CO and/or EWO which shall include: (a) the computation as to the quantities of the additional works involved per item indicating the specific
+                    stations where such works are needed; (b) the date of inspection conducted and the results of such inspection; (c) a detailed estimate of the unit cost of such items of work for new unit costs including those expressed in volume/area/lump-
+                    sum/lot
+                </li>
+                <li>Copy of the approved/revised PERT/CPM Network Diagram which shall be color coded, reflecting the effect of additional/deductive time on the contract period and the corresponding detailed computations for the additional/deductive time for
+                    the subject Change Order/Extra Work Order</li>
+                <li>Copy of the approved detailed breakdown of contract cost for the variation order</li>
+                <li>Copy of the COA Technical Evaluation Report for the original contract</li>
+                <li>If the Variation Order to be reviewed is not the 1st variation order, all of the above requirements for all previously approved variation orders, if not yet reviewed, otherwise, copy of the COA Technical Evaluation Report for the previously
+                    approved variation orders</li>
+                <li>Additional performance security in the prescribed form and amount if variation order exceeds 10 percent of the original contract cost</li>
+                <li>Such other documents peculiar to the contract and/or to the mode of procurement and considered necessary in the auditorial review and in the technical evaluation thereof</li>
+            </ul>
+        </article>
+        <nav>
+            <div>
+                <form style="font-size: 18px; " action="/action_page.php ">
+                    <div>
+                        <h4 style="margin:5px">Check Number :</h4>
+                        <input style="width: 95%;" type="text" id="myInput" placeholder="Enter Check No./Cancelled">
+                    </div>
+                    <div>
+                        <h4 style="margin:5px">Municipality / City</h4>
+                        <input style="width: 95%;" type="text" id="myInput" placeholder="Enter Municipality/City">
+                    </div>
+                    <div>
+                        <h4 style="margin:5px">Baranggay</h4>
+                        <input style="width: 95%;" type="text" id="myInput" placeholder="Enter Baranggay">
+                    </div>
+                    <div>
+                        <h4 style="margin:5px">Voucher Number :</h4>
+                        <input style="width: 95%;" type="text" id="myInput" placeholder="Enter Voucher No.">
+                    </div>
+                    <div>
+                        <h4 style="margin:5px">Date of Voucher :</h4>
+                        <input style="width: 95%;" type="text" id="myInput" placeholder="Enter Date of Voucher">
+                    </div>
+                    <div>
+                        <h4 style="margin:5px">Payee :</h4>
+                        <input style="width: 95%;" type="text" id="myInput" placeholder="Enter Payee">
+                    </div>
+                    <div>
+                        <h4 style="margin:5px">Source of Fund :</h4>
+                        <input style="width: 95%;" type="text" id="myInput" placeholder="Enter Source of Fund">
+                    </div>
+                    <br><br><br>
+                    <button type="submit " form="form1 " value="Submit ">SAVE</button>
+                </form>
+            </div>
+        </nav>
+    </section>
+
+    <script src="checklist.js"></script>
+
+</body>
+
+</html>

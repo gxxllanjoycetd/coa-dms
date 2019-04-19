@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style=width:100%;height:auto;>
+    <div>
+        <img src="dash.png " style=width:100%;height:auto;margin-top:5px; />
+    </div>
+    <div style=font-size:20px;>
+        <center>Retirement Benefits</center>
+    </div>
+    <section>
+        <article>
+            <div id="myDIV" class="header">
+                <h2 style="margin:5px">Supporting Documentary Requirements</h2>
+                <input type="text" id="myInput" placeholder="Additional Requirements">
+                <span onclick="newElement()" class="addBtn">Add</span>
+            </div>
+
+            <ul id="myUL">
+                <li>Certificate of Availability of Funds issued by the Chief Accountant</li>
+                <li>Existence of lawful and sufficient allotment duly obligated as certified by authorized officials [except for government-owned and controlled corporations/government financing institutions (GOCCs/GFIs)]
+                </li>
+                <li>Legality of transaction and conformity with laws, rules or regulations</li>
+                <li>Approval of expenditure by Head of Office or his authorized representative</li>
+                <li>Sufficient and relevant documents to establish validity of claim</li>
+                <li>Updated Service record indicating the number of days on leave without pay and/or certification issued by the Human Resource Office (HRO) that the retiree did not incur any leave of absence without pay</li>
+                <li>Retirement application</li>
+                <li>Office clearance from money/property accountability & administrative/ criminal liability</li>
+                <li>Statement of assets and liabilities</li>
+                <li>Retirement Gratuity Computation</li>
+                <li>Affidavit of Undertaking for authority to deduct accountabilities</li>
+                <li>Affidavit of applicant that there is no pending criminal investigation or prosecution against him/her (Anti-Graft RA No. 3019)</li>
+                <li>In case of resignation, Employee’s letter of resignation duly accepted by the Agency Head</li>
+                <li>In case of death of claimant, Death Certificate authenticated by National Statistics Office (NSO)</li>
+                <li>In case of death of claimant, Marriage contract authenticated by NSO</li>
+                <li>In case of death of claimant, Birth certificates of all surviving heirs authenticated by NSO</li>
+                <li>In case of death of claimant, Designation of next-of-kin</li>
+                <li>In case of death of claimant, Waiver of rights of children 18 years old and above</li>
+                <li>In case of death of claimant, Affidavit of two disinterested parties that the deceased is survived by legitimate and illegitimate (if any), natural, adopted or children of prior marriage</li>
+
+            </ul>
+        </article>
+        <nav>
+            <div>
+                <form style="font-size: 18px; " action="/action_page.php ">
+                    <div>
+                        <h4 style="margin:5px">Check Number :</h4>
+                        <input style="width: 95%;" type="text" id="myInput" placeholder="Enter Check No./Cancelled">
+                    </div>
+                    <div>
+                        <h4 style="margin:5px">Municipality / City</h4>
+                        <input style="width: 95%;" type="text" id="myInput" placeholder="Enter Municipality/City">
+                    </div>
+                    <div>
+                        <h4 style="margin:5px">Baranggay</h4>
+                        <input style="width: 95%;" type="text" id="myInput" placeholder="Enter Baranggay">
+                    </div>
+                    <div>
+                        <h4 style="margin:5px">Voucher Number :</h4>
+                        <input style="width: 95%;" type="text" id="myInput" placeholder="Enter Voucher No.">
+                    </div>
+                    <div>
+                        <h4 style="margin:5px">Date of Voucher :</h4>
+                        <input style="width: 95%;" type="text" id="myInput" placeholder="Enter Date of Voucher">
+                    </div>
+                    <div>
+                        <h4 style="margin:5px">Payee :</h4>
+                        <input style="width: 95%;" type="text" id="myInput" placeholder="Enter Payee">
+                    </div>
+                    <div>
+                        <h4 style="margin:5px">Source of Fund :</h4>
+                        <input style="width: 95%;" type="text" id="myInput" placeholder="Enter Source of Fund">
+                    </div>
+                    <br><br><br>
+                    <button type="submit " form="form1 " value="Submit ">SAVE</button>
+                </form>
+            </div>
+        </nav>
+    </section>
+
+    <script src="checklist.js"></script>
+
+</body>
+
+</html>
