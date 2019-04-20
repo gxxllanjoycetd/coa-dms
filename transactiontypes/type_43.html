@@ -44,16 +44,26 @@
             <div>
                 <form style="font-size: 18px; " action="/action_page.php ">
                     <div>
+                        <h4 style="margin:5px">JEV Number :</h4>
+                        <input style="width: 95%;" type="text" id="myInput" placeholder="Enter JEV No.">
+                    </div>
+                    <div>
                         <h4 style="margin:5px">Check Number :</h4>
-                        <input style="width: 95%;" type="text" id="myInput" placeholder="Enter Check No./Cancelled">
+                        <input style="width: 95%;" type="text" id="myInput" placeholder="Enter Check No.">
                     </div>
                     <div>
-                        <h4 style="margin:5px">Municipality / City</h4>
-                        <input style="width: 95%;" type="text" id="myInput" placeholder="Enter Municipality/City">
+                        <h4 style="margin:5px">Amount</h4>
+                        <input style="width: 95%;" type="text" id="myInput" placeholder="Enter Amount">
                     </div>
                     <div>
-                        <h4 style="margin:5px">Baranggay</h4>
-                        <input style="width: 95%;" type="text" id="myInput" placeholder="Enter Baranggay">
+                        <h4 style="margin:5px">Status</h4>
+                    </div>
+                    <div class="styled-select slate" style="width: 300px">
+                        <select>
+                            <option>Submitted</option>
+                            <option>Unsubmitted</option>
+                            <option>Cancelled</option>
+                        </select>
                     </div>
                     <div>
                         <h4 style="margin:5px">Voucher Number :</h4>
@@ -70,6 +80,18 @@
                     <div>
                         <h4 style="margin:5px">Source of Fund :</h4>
                         <input style="width: 95%;" type="text" id="myInput" placeholder="Enter Source of Fund">
+                    </div>
+                    <div>
+                        <h4 style="margin:5px">Type of Transaction :</h4>
+                        <input style="width: 95%;" type="text" id="myInput" value="Special Projects">
+                    </div>
+                    <div>
+                        <h4 style="margin:5px">Submitted Documents :</h4>
+                        <input style="width: 95%;" type="text" id="myInput" placeholder="List">
+                    </div>
+                    <div>
+                        <h4 style="margin:5px">Unsubmitted Documents :</h4>
+                        <input style="width: 95%;" type="text" id="myInput" placeholder="List">
                     </div>
                     <br><br><br>
                     <button type="submit " form="form1 " value="Submit ">SAVE</button>
